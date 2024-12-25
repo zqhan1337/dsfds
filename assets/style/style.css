@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 890px;
+    background: url(../img/Free-Ultra-Wide-Screen-Monitor-MacBook-Pro-Frame-Mockup-PSD-File.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.main .color{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+
+.main .container .photo{
+    font-size: 120px;
+    color: greenyellow;
+    
+}
+.ph{
+    background: url(../img/image_processing20220322-11258-ffjpdj.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+}
+
+.text{
+    font-size: 128px;
+    color: aqua;
+}
+@media(max-width: 1200px){
+    .container{
+        width: 992px;
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+    .container .photo{
+        height: 890px;
+        
+    }
+
+}
